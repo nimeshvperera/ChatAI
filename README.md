@@ -7,6 +7,7 @@ Goal Built a conversational cooking assistant powered by Gemini that suggests pe
 Tech Stack Python, Google Gemini 2.5 Flash (google-genai SDK), Prompt Engineering, Stateful Multi-turn Chat, System Instructions
 
 Challenges & Solutions 
+
   • Keeping the bot on-topic → Engineered a strict system prompt that redirects any non-food questions back to cooking, enforcing a focused persona 
   
   • Personalization without a database → Designed the bot to always collect dietary restrictions and skill level before suggesting any recipe, making responses feel tailored 
@@ -24,6 +25,7 @@ Goal Built an AI-powered tutoring chatbot using Gemini that helps students learn
 Tech Stack Python, Google Gemini 2.5 Flash (google-genai SDK), Prompt Engineering, Stateful Multi-turn Chat, System Instructions
 
 Challenges & Solutions 
+
 • Preventing academic dishonesty → Hard-coded a rule in the system prompt blocking direct homework answers, redirecting students toward understanding instead 
 
 • Avoiding cognitive overload → Designed the bot to address one question at a time and confirm understanding before moving on, mimicking a real tutor's pacing 
